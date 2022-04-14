@@ -1,9 +1,12 @@
+body{
+    margin: 0px;
+}
 .container-fluid{
     width: 100%;
 }
 .image img{
     width: 100%;
-    height: 250px;
+    height: 400px;
 }
 
 .menu{
@@ -27,36 +30,101 @@
     display: block;
 }
 
+.content{
+    height: 600px;
+}
+
 .leftsidebar{
-    width: 30%;
-    min-height: 600px;
-    float: left;
-    background-color: aqua;
+    height: 600px;
+    width: 15%;
+    background-color: #F38181;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
 }
 
 .maincontent{
-    width: 40%;
-    min-height: 600px;
-    float:left;
-    background-color: red;
+    height: 600px;
+    width: 70%;
+    background-color: #FFE2E2;
+    display: inline-block;
+    position: absolute;
+    left: 15%;
 }
 .rightsidebar{
-    width: 30%;
-    min-height: 600px;
-    float:left;
-    background-color: blue;
+    height: 600px;
+    width: 15%;
+    background-color: #364F6B;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
 }
 
-.fleft{
 
+
+.lefttopimg{
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+}
+.righttopimg{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+.bottomleftimg{
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.bottomrightimg{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.lefttopimg img{
+    width: 300px;
+    height: 300px;
+
+}
+.righttopimg img{
+    width: 300px;
+    height: 300px;
+}
+
+.bottomleftimg img{
+    width: 300px;
+    height: 300px;
+}
+.bottomrightimg img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.footer{
+    height: 150px;
+    background-color: #DBE2EF;
+}
+.fleft{
     width: 60%;
-    min-height: 100px;
-    float: left;
-    background-color: yellow;
+    background-color: #61C0BF;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
 }
 .fright{
     width: 40%;
-    min-height: 100px;
-    float: left;
-    background-color: orange;
+    background-color: #798777;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+
 }
